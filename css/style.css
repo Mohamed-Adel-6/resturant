@@ -265,7 +265,6 @@ nav .container #links li a:hover{
   .signboard .container .image {
     width: 100%;
     height: 50%;
-    padding-top: 20px;
     padding-bottom: 0;
   }
   .signboard .container .image img{
@@ -303,14 +302,13 @@ nav .container #links li a:hover{
 
   .signboard .container{
     justify-content: center;
-    padding-top: 20px;
   }
   .signboard .container .image{
     width: 100%;
     height: 45%;
   }
   .signboard .container .image img{
-    width: 250px;
+    width: 220px;
   }
   .signboard .container .info{
     width: 100%;
@@ -384,7 +382,7 @@ nav .container #links li a:hover{
 }
 #menu .container .title{
   color: white;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 300;
   margin-bottom: 20px;
 }
@@ -413,7 +411,7 @@ nav .container #links li a:hover{
 }
 @media (max-width:767px) {
   #menu .container .title{
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 #menu .container #boxes{
@@ -448,6 +446,7 @@ nav .container #links li a:hover{
   line-height: 1.5;
   letter-spacing: 1px;
   color: #ddd;
+  text-align:center;
 }
 #menu  .box-item .price{
   font-size: 25px;
@@ -462,6 +461,7 @@ nav .container #links li a:hover{
   transform: translate(-50%,-50%);
   font-size: 25px;
   transition: .3s;
+  width:135px
 }
 #menu  .box-item::before{
   content: "";
@@ -474,7 +474,7 @@ nav .container #links li a:hover{
   transition: .3s;
 }
 #menu  .box-item:hover> .order{
-  left: 49%;
+  left: 50%;
 }
 #menu  .box-item:hover::before{
   right: 0;
@@ -497,7 +497,7 @@ nav .container #links li a:hover{
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 2;
 }
 #about .container{
@@ -507,6 +507,12 @@ nav .container #links li a:hover{
 #about .container .title{
   font-size: 50px;
   color: white;
+  font-weigh:400;
+}
+@media (max-width:767px) {
+  #about .container .title{
+    font-size: 45px;
+  }
 }
 #about .container .section{
   display: flex;
