@@ -487,7 +487,6 @@ nav .container #links li a:hover{
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  background-attachment: fixed;
 }
 #about::before{
   content: "";
