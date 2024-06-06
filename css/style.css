@@ -192,7 +192,7 @@ nav .container #links li a:hover{
 /* start signboard */
 .signboard{
   /* height: 90vh; */
-  background-image: url(image/wood.jpg);
+  background-image: url(../image/wood.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -340,7 +340,7 @@ nav .container #links li a:hover{
 /* end signboard */
 /* start advantages */
 .advantages{
-  background-image: url(image/back_2.png);
+  background-image: url(../image/back_2.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 30px 0;
@@ -474,7 +474,7 @@ nav .container #links li a:hover{
   transition: .3s;
 }
 #menu  .box-item:hover> .order{
-  left: 50%;
+  left: 49%;
 }
 #menu  .box-item:hover::before{
   right: 0;
@@ -484,7 +484,7 @@ nav .container #links li a:hover{
 #about{
   text-align: center;
   padding: 30px 0 0;
-  background-image: url(image/back_1.jpg);
+  background-image: url(../image/back_1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -560,14 +560,14 @@ nav .container #links li a:hover{
   gap: 30px;
 }
 .connect .container a i{
-  font-size: 35px;
+  font-size: 32px;
   transition: .2s;
 }
 .connect .container a:hover>i{
   color: var(--main-color);
 }
 .connect .container p{
-  font-size: 25px;
+  font-size: 22px;
 }
 /* end connect */
 /* start footer */
@@ -577,7 +577,7 @@ footer{
   padding: 10px;
 }
 footer p{
-  font-size: 20px;
+  font-size: 17px;
 }
 footer p .fa-heart{
   color: red;
