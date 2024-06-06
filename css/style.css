@@ -308,7 +308,7 @@ nav .container #links li a:hover{
     height: 45%;
   }
   .signboard .container .image img{
-    width: 220px;
+    width: 230px;
   }
   .signboard .container .info{
     width: 100%;
@@ -342,7 +342,6 @@ nav .container #links li a:hover{
   background-size: cover;
   background-repeat: no-repeat;
   padding: 30px 0;
-  background-attachment: fixed;
 }
 
 .advantages .container{
