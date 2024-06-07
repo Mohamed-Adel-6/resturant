@@ -1,7 +1,5 @@
 // get element
 // navbar
-// let page = document.getElementById('page');
-// let pageOrder = document.getElementById('page-order');
 let bar= document.getElementById("bar");
 let navLinks= document.getElementById("links-icons");
 let links =Array.from(document.querySelectorAll(".link"));
@@ -231,26 +229,4 @@ pizzaBtn.onclick=()=>{
   boxes.remove();
   items(pizza);
 };
-// let ordersBtn =Array.from(document.getElementsByClassName('order-now'));
-// for(let i =0 ;i<ordersBtn.length;i++){
-//   ordersBtn[i].onclick=()=>{
-//     pageOrder.style.display='block';
-//     page.style.display="none";
-//     bar.style.display="none";
-//     let close = document.createElement('div');
-//     close.id='close'
-//     let closeText = document.createTextNode('close');
-//     close.appendChild(closeText)
-//     pageOrder.appendChild(close);
-//     let title = document.createElement('h2');
-//     let titleText = document.createTextNode(pizza[i].name);
-//     title.appendChild(titleText);
-//     pageOrder.appendChild(title);
-//     close.onclick=()=>{
-//       pageOrder.style.display='none';
-//       page.style.display="block";
-//       bar.style.display="block";
-//     }
-//   };
-// };
 console.log('this wep site made by mohamed adel');
